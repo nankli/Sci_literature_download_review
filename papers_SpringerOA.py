@@ -4,8 +4,7 @@
    the abstracts of the papers.
    The paper search is performed through Springer Open Access API. 
    You may go to Springer API website to obtain your key:
-   https://dev.springernature.com/  And FOR TESTING PURPOSE ONLY: 
-   You may enter "testing" when you are prompted to enter a key.
+   https://dev.springernature.com/  
    Name:    papers_SpringerOA.py
    Author:  Nan LI (nankli@berkeley.edu)
    Date:    Oct 29, 2021
@@ -175,8 +174,6 @@ class Main():
          '\n|The paper search is through Springer Open Access API.  |' + \
          '\n|You may go to Springer API website to obtain your key: |' + \
          '\n|          https://dev.springernature.com/              |' + \
-         '\n|FOR TESTING PURPOSE ONLY:                              |' + \
-         '\n|Enter "testing" when you are prompted to enter a key.  |' + \
          '\n|-------------------------------------------------------|' 
     
     em = '\n|-------------------------------------------------------|' + \
